@@ -17,7 +17,7 @@
     @component('components.info-section-light', ['title' => trans('menu.intro.heading')])
         <p class="text-purple text-center">{{ trans('menu.intro.content') }}</p>
     @endcomponent
-    <div class="flex justify-around md:justify-center mx-auto items-center p-4 menu-sub-nav">
+    <div class="flex justify-around md:justify-center mx-auto items-center p-4 menu-sub-nav z-50">
         <a href="" data-jump-target="#dine" data-jump-offset="-50"
            class="font-sans font-medium text-navy uppercase no-underline hover:underline md:mx-12">{{ trans('menu.dine.title') }}</a>
         <a href="" data-jump-target="#brunch" data-jump-offset="-50"

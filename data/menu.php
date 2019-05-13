@@ -75,23 +75,13 @@ return [
         ],
 
         'images' => [
-            '/images/menu/dine/dine_image_1.jpg',
-            '/images/menu/dine/dine_image_2.jpg',
-            '/images/menu/dine/dine_image_3.jpg',
-            '/images/menu/dine/dine_image_4.jpg',
-            '/images/menu/dine/dine_image_5.jpg',
-            '/images/menu/dine/dine_image_6.jpg',
-            '/images/menu/dine/dine_image_7.jpg',
-            '/images/menu/dine/dine_image_8.jpg',
-            '/images/menu/dine/dine_image_9.jpg',
-            '/images/menu/dine/dine_image_10.jpg',
-            '/images/menu/dine/dine_image_11.jpg',
-            '/images/menu/dine/dine_image_12.jpg',
-            '/images/menu/dine/dine_image_13.jpg',
-            '/images/menu/dine/dine_image_14.jpg',
-            '/images/menu/dine/dine_image_15.jpg',
-            '/images/menu/dine/dine_image_16.jpg',
-            '/images/menu/dine/dine_image_17.jpg',
+
+            '/images/menu-images/dine/dine_soup.png',
+            '/images/menu-images/dine/dine_pork.png',
+            '/images/menu-images/dine/dine_chicken.png',
+            '/images/menu-images/dine/dine_salad.png',
+            '/images/menu-images/dine/dine_starter.png',
+
         ]
     ],
 
@@ -129,8 +119,8 @@ return [
         ],
 
         'images' => [
-            '/images/menu/brunch/brunch_1.jpg',
-            '/images/menu/brunch/brunch_2.jpg'
+            '/images/menu-images/brunch/tea_1.png',
+            '/images/menu-images/brunch/tea_2.png'
         ]
     ],
 
@@ -181,10 +171,11 @@ return [
             ]
         ],
         'images'   => [
-            '/images/menu/beverages/beverages_1.jpg',
-            '/images/menu/beverages/beverages_2.jpg',
-            '/images/menu/beverages/beverages_3.jpg',
-            '/images/menu/beverages/beverages_4.jpg',
+
+            '/images/menu-images/beverages/beverage_1.png',
+            '/images/menu-images/beverages/beverage_2.png',
+            '/images/menu-images/beverages/beverage_3.png',
+            '/images/menu-images/beverages/beverage_4.png',
         ]
     ],
 
@@ -217,8 +208,9 @@ return [
             ]
         ],
         'images'   => [
-            '/images/menu/alcohol/alcohol_1.jpg',
-            '/images/menu/alcohol/alcohol_2.jpg',
+            '/images/menu-images/alcohol/alcohol_1.png',
+            '/images/menu-images/alcohol/alcohol_2.png',
+            '/images/menu-images/alcohol/alcohol_3.png',
         ]
     ]
 ];

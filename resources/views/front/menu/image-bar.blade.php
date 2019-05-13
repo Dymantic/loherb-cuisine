@@ -1,13 +1,10 @@
-<section class="my-12">
-    <div class="w-screen overflow-x-auto whitespace-no-wrap text-center menu-scroller">
+<section class="my-20">
+    <div data-flickity='{"cellAlign": "left", "contain": true, "prevNextButtons": {{ count($images) > 3 ? "true" : "false" }}, "pageDots": false }' class="w-full max-w-xl mx-auto z-0">
         @foreach($images as $image)
-            <div class="@if(!$loop->last) md:mr-12 md:pr-12 md:border-r md:border-purple @endif  inline-block">
-                <img src="{{ $image }}"
-                     alt="Main course at Loherb Cuisine" class="w-full block max-w-xs">
-            </div>
+        <div class="w-full md:w-1/3">
+            <img src="{{ $image }}"
+                 alt="" class="h-64 block mx-auto">
+        </div>
         @endforeach
-    </div>
-    <div class="text-center mt-8">
-        @include('svgs.icons.scroll_arrows')
     </div>
 </section>
