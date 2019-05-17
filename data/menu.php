@@ -120,7 +120,8 @@ return [
 
         'images' => [
             '/images/menu-images/brunch/tea_1.png',
-            '/images/menu-images/brunch/tea_2.png'
+            '/images/menu-images/brunch/tea_2.png',
+            '/images/menu-images/brunch/tea_3.png',
         ]
     ],
 
