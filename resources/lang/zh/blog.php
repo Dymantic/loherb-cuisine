@@ -10,11 +10,19 @@ return [
     'index' => [
         'heading' => '私廚隨筆',
         'subheading' => '一窺私廚的點點滴滴',
-        'more' => '發掘更多'
+        'more' => '發掘更多',
+        'archives-link' => '發掘更多',
     ],
 
     'show' => [
         'share_prompt' => '分享',
         'back_button' => '回到私廚隨筆'
+    ],
+
+    'archives' => [
+        'title' => '更多故事',
+        'description' => '更多關於日光的故事，有自然旅宿、天然饗食、特色獻禮、健康樂活等有趣實用資訊。',
+        'heading' => '更多故事',
+        'subheading' => '看看更多關於日光的故事'
     ]
 ];
