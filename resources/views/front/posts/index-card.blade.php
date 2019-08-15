@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-between mb-20 w-64 max-w-full bg-pinky-grey mx-auto">
+<div class="flex flex-col justify-between mb-8 w-64 max-w-full bg-pinky-grey mx-auto">
     <div>
         <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="hidden md:block">
             <img src="{{ $post['title_image_thumb'] }}"

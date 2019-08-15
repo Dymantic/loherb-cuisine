@@ -12,6 +12,8 @@ return [
         'subheading' => '一窺私廚的點點滴滴',
         'more' => '發掘更多',
         'archives-link' => '發掘更多',
+        'previous-page' => '上一頁',
+        'next-page' => '下一頁',
     ],
 
     'show' => [
