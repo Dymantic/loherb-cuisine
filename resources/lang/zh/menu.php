@@ -18,7 +18,7 @@ return [
         'starters' => [
             'title' => '前菜',
             'soup-and-bread' => '季節湯品 & 鄉村麵包',
-            'shrimp-with-caviar' => '鮮蝦卵佐海甜蝦',
+            'shrimp-with-caviar' => '鮮魚卵佐海甜蝦',
             'salad-and-apple-vinegar' => '田野沙拉 & 蘋果醋',
         ],
         'classic' => [

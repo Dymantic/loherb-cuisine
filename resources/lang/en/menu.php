@@ -19,7 +19,7 @@ return [
         'starters' => [
             'title' => 'Starters',
             'soup-and-bread' => 'Soup & Bread',
-            'shrimp-with-caviar' => 'Shrimp with Caviar',
+            'shrimp-with-caviar' => 'Shrimp with Roe',
             'salad-and-apple-vinegar' => 'Salad and Apple Vinegar',
         ],
         'classic' => [
