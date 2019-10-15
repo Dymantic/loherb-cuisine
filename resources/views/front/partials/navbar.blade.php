@@ -15,6 +15,11 @@
             </a>
         </div>
         <div class="flex items-center my-2 md:my-0 nav-link-box">
+            <a class="nav-link text-gold" href="{{ localUrl('/book') }}">
+                {{ trans('navbar.bookings') }}
+            </a>
+        </div>
+        <div class="flex items-center my-2 md:my-0 nav-link-box">
             <a class="flex items-center nav-link text-white" tabindex="4" href="{{ localUrl('/events') }}">{{ trans('navbar.events') }}</a>
         </div>
         <div class="flex items-center my-2 md:my-0 nav-link-box">

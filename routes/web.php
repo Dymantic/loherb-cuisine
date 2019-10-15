@@ -28,6 +28,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
     Route::get('contact', 'ContactController@create');
 
+    Route::get('book', 'PagesController@bookings');
+
 });
 
 Route::post('contact', 'ContactController@store');

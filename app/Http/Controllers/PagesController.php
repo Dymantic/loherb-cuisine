@@ -35,5 +35,15 @@ class PagesController extends Controller
         return view('front.events.page', ['event_images' => data('events.slideshow'), 'amenities' => data('events.amenities')]);
     }
 
+    public function bookings()
+    {
+        $lang = 'en';
+        if(app()->getLocale() === 'zh') {
+            $lang = 'zh-tw';
+        }
+
+        return view('front.bookings.page', ['lang' => $lang]);
+    }
+
 
 }
