@@ -4,7 +4,7 @@ return [
     'home' => 'home',
     'about' => 'about',
     'menu' => 'menu',
-    'bookings' => 'Book a Table',
+    'bookings' => 'Reservations',
     'events' => 'events',
     'blog' => 'journal',
     'contact' => 'contact',

@@ -37,7 +37,7 @@
 
             <p class="text-center mt-12 mb-12 md:mb-0">
                 <a class="font-sans tracking-wide uppercase no-underline text-gold hover:underline"
-                   href="{{ localUrl("/contact") }}">{{ trans('footer.links.book') }}</a>
+                   href="{{ localUrl("/book") }}">{{ trans('footer.links.book') }}</a>
             </p>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
