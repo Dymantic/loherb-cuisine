@@ -1,4 +1,4 @@
-@extends('front.base')
+@extends('front.base', ['with_foot' => false])
 
 @section('title')
     {{ trans('bookings.seo.title') }}

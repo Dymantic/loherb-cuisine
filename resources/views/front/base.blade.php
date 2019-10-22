@@ -45,7 +45,9 @@
 
 <div id="app">
     @yield('content')
+    @if($with_foot ?? true)
     @include('front.partials.footer')
+    @endif
     @include('front.partials.navbar')
 </div>
 <div class="fb-customerchat"
