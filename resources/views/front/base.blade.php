@@ -50,9 +50,11 @@
     @endif
     @include('front.partials.navbar')
 </div>
+@if($with_messenger ?? true)
 <div class="fb-customerchat"
      page_id="{{ config('facebook.page_id') }}" theme_color="#5d2b46">
 </div>
+@endif
 @yield('bodyscripts')
 <script src="{{ mix("js/app.js") }}"></script>
 @include('front.partials.facebook-sdk')
