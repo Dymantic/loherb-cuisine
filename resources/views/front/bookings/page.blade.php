@@ -14,7 +14,10 @@
 
 @section('content')
 <div class="pt-12">
-    <iframe src="https://inline.app/booking/loherb/cuisine?language={{ $lang ?? 'en' }}" frameborder="0" class="bookings-frame w-full"></iframe>
+
+{{--    <iframe src="https://inline.app/booking/loherb/cuisine?language={{ $lang ?? 'en' }}" frameborder="0" class="bookings-frame w-full"></iframe>--}}
+{{--    <div class="h-12"></div>--}}
+    <iframe src="https://inline-web-pr-1519.herokuapp.com/booking/-LpqU8_eNeY4pIKNX0zA:inline-live-1/-LpqU8eUQSHnx8reNuq0?language={{ $lang ?? 'en' }}" frameborder="0" class="bookings-frame w-full"></iframe>
     <div class="h-12"></div>
 </div>
 @endsection
