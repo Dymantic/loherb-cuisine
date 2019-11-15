@@ -14,7 +14,6 @@
 
 @section('content')
 <div class="pt-12">
-
-    <iframe src="https://inline.app/booking/loherb/cuisine?language={{ $lang ?? 'en' }}" frameborder="0" class="bookings-frame w-full"></iframe>
+    <bookings-page lang="{{ $lang }}"></bookings-page>
 </div>
 @endsection

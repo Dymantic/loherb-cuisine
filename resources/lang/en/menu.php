@@ -86,7 +86,7 @@ return [
             'latte' => 'Latte',
             'rose-latte' => 'Rose Latte',
             'burnt-cream-latte' => 'Burnt Cream Latte',
-            'caramel-machiato' => 'Caramel Machiato',
+            'caramel-machiato' => 'Caramel Macchiato',
         ],
         'tea' => [
             'title' => 'Tea',

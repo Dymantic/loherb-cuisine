@@ -12,6 +12,7 @@ import "flickity-imagesloaded";
 import jump from "jump.js";
 const Vue = require('vue');
 Vue.component('contact-form', require('./components/ContactForm'));
+Vue.component('bookings-page', require('./components/BookingsPage'));
 
 
 /**
