@@ -1,5 +1,5 @@
 <template>
-    <iframe v-if="ready" :height="contentHeight" allowtransparency="true" frameborder="0" title='xxx' :src="src" class="bookings-frame w-full"></iframe>
+    <iframe v-if="ready" :height="contentHeight" allowtransparency="true" scrolling="no" frameborder="0" title='xxx' :src="src" class="bookings-frame w-full"></iframe>
 </template>
 
 <script type="text/babel">
