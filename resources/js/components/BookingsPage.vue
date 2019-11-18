@@ -1,5 +1,5 @@
 <template>
-    <iframe v-if="ready" :height="contentHeight" allowtransparency="true" scrolling="no" frameborder="0" title='xxx' :src="src" class="bookings-frame w-full"></iframe>
+    <iframe v-if="ready" :height="contentHeight" :width="pageWidth" allowtransparency="true" scrolling="no" frameborder="0" title='xxx' :src="src"></iframe>
 </template>
 
 <script type="text/babel">
@@ -9,6 +9,7 @@
         data() {
             return {
                 contentHeight: null,
+                pageWidth: null,
                 ready: false,
             };
         },
@@ -22,6 +23,7 @@
 
         mounted() {
             this.contentHeight = window.innerHeight - (3 * 16);
+            this.pageWidth = window.innerWidth;
             this.ready = true;
         }
 
