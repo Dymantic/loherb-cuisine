@@ -30,23 +30,23 @@ return [
             'title'   => 'menu.dine.starters.title',
             'courses' => [
                 'menu.dine.starters.soup-and-bread',
-                'menu.dine.starters.shrimp-with-caviar',
+                'menu.dine.starters.abalone-urchin',
                 'menu.dine.starters.salad-and-apple-vinegar',
             ]
         ],
         'options'   => [
             [
                 'title'   => 'menu.dine.classic.title',
-                'price'   => '560',
+                'price'   => '580',
                 'choices' => [
-                    'menu.dine.classic.tulip-chicken',
+                    'menu.dine.classic.mushroom-chicken',
                     'menu.dine.classic.mustard-pork',
                     'menu.dine.classic.vegetable-club'
                 ]
             ],
             [
                 'title'   => 'menu.dine.feast.title',
-                'price'   => '660',
+                'price'   => '680',
                 'choices' => [
                     'menu.dine.feast.beef-bourguignon',
                     'menu.dine.feast.duck-with-taro',
@@ -55,7 +55,7 @@ return [
             ],
             [
                 'title'   => 'menu.dine.premium.title',
-                'price'   => '860',
+                'price'   => '880',
                 'choices' => [
                     'menu.dine.premium.sicily-seafood',
                     'menu.dine.premium.sirloin-steak',
@@ -70,7 +70,7 @@ return [
                 'milk-tea',
                 'honey-lemon',
                 'latte',
-                'kiwi-berry-tea'
+                'flower-tea'
             ]
         ],
 
@@ -81,6 +81,10 @@ return [
             '/images/menu-images/dine/dine_chicken.png',
             '/images/menu-images/dine/dine_salad.png',
             '/images/menu-images/dine/dine_starter.png',
+            '/images/menu-images/dine/dine_1.png',
+            '/images/menu-images/dine/dine_2.png',
+            '/images/menu-images/dine/dine_3.png',
+            '/images/menu-images/dine/dine_5.png',
 
         ]
     ],
@@ -96,6 +100,7 @@ return [
                     'menu.brunch.subs.tuna-with-vegetables',
                     'menu.brunch.subs.pesto-mushroom',
                     'menu.brunch.subs.smoked-duck',
+                    'menu.brunch.subs.hawaii-ham',
                 ]
             ],
             [
@@ -111,7 +116,7 @@ return [
                 'title'   => 'menu.brunch.waffles.title',
                 'price'   => 270,
                 'options' => [
-                    'menu.brunch.waffles.fruit-berries',
+                    'menu.brunch.waffles.honey-fruit',
                     'menu.brunch.waffles.chocolate',
                     'menu.brunch.waffles.matcha',
                 ]
@@ -122,6 +127,8 @@ return [
             '/images/menu-images/brunch/tea_1.png',
             '/images/menu-images/brunch/tea_2.png',
             '/images/menu-images/brunch/tea_3.png',
+            '/images/menu-images/brunch/tea_4.png',
+            '/images/menu-images/brunch/tea_5.png',
         ]
     ],
 
@@ -133,8 +140,8 @@ return [
                 'price'   => 230,
                 'options' => [
                     'menu.beverages.coffee.espresso',
-                    'menu.beverages.coffee.american',
-                    'menu.beverages.coffee.latte',
+                    'menu.beverages.coffee.sicily-long',
+                    'menu.beverages.coffee.italian-latte',
                     'menu.beverages.coffee.rose-latte',
                     'menu.beverages.coffee.burnt-cream-latte',
                     'menu.beverages.coffee.caramel-machiato',
@@ -195,7 +202,7 @@ return [
                 'title'   => 'menu.alcohol.wine.title',
                 'price'   => 800,
                 'options' => [
-                    'menu.alcohol.wine.bonne-chance-moscato',
+                    'menu.alcohol.wine.signore-giuseppe',
                     'menu.alcohol.wine.dominga-chardonnay',
                     'menu.alcohol.wine.dominga-cabernet-sauvignon'
                 ]

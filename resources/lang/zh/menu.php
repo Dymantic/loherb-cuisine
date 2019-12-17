@@ -17,20 +17,21 @@ return [
 
         'starters' => [
             'title' => '前菜',
-            'soup-and-bread' => '季節湯品 & 鄉村麵包',
+            'soup-and-bread' => '牛肝菌巧達湯 & 佛卡夏麵包',
             'shrimp-with-caviar' => '鮮魚卵佐海甜蝦',
-            'salad-and-apple-vinegar' => '田野沙拉 & 蘋果醋',
+            'salad-and-apple-vinegar' => '藍莓優格沙拉 & 奇芽籽蘋果醋',
+            'abalone-urchin' => '海膽醬佐莓汁鮑魚'
         ],
         'classic' => [
             'title' => '經典',
-            'tulip-chicken' => '鬱金香雞腿排',
+            'mushroom-chicken' => '洋菇雞腿排',
             'mustard-pork' => '芥末豬菲力',
             'vegetable-club' => '蔬食總匯',
         ],
         'feast' => [
             'title' => '風味',
             'beef-bourguignon' => '紅酒燉牛肉',
-            'duck-with-taro' => '奶竽櫻桃鴨',
+            'duck-with-taro' => '奶芋櫻桃鴨',
             'spicy-salmon' => '義式香料鮭魚',
         ],
         'premium' => [
@@ -41,11 +42,12 @@ return [
         ],
         'beverages' => [
             'title' => '飲料',
-            'long-black' => '美式黑咖啡',
-            'milk-tea' => '皇家鮮奶茶',
-            'honey-lemon' => '蜂蜜檸檬',
+            'long-black' => '黑咖啡',
+            'milk-tea' => '鮮奶茶',
+            'honey-lemon' => '檸檬汁',
             'latte' => '拿鐵',
             'kiwi-berry-tea' => '草莓果粒茶',
+            'flower-tea' => '洛神花茶',
         ],
     ],
 
@@ -58,19 +60,20 @@ return [
             'new-orleans-chicken' => '紐奧良嫩雞',
             'tuna-with-vegetables' => '鮮蔬鮪魚',
             'pesto-mushroom' => '青醬野菇',
-            'hawaii-ham' => 'Hawaii Ham',
-            'smoked-duck' => '蒜苗燻鴨',
+            'hawaii-ham' => '夏威夷火腿',
+            'smoked-duck' => '櫻桃鴨',
         ],
         'cakes' => [
             'title' => '蛋糕',
             'matcha' => '宇治抹茶',
             'chocolate' => '古典巧克力',
-            'cheese' => '重乳酪',
+            'cheese' => '乳酪',
         ],
         'waffles' => [
             'title' => '手作鬆餅',
             'fruit-berries' => '鮮果野莓',
-            'chocolate' => '熔岩巧克力',
+            'honey-fruit' => '蜂蜜鮮果',
+            'chocolate' => '巧克力',
             'matcha' => '宇治金時抹茶',
         ],
     ],
@@ -81,6 +84,8 @@ return [
         'coffee' => [
             'title' => '義式咖啡',
             'espresso' => '濃縮咖啡',
+            'sicily-long' => '西西里黑咖啡',
+            'italian-latte' => '義式拿鐵',
             'american' => '黑咖啡',
             'latte' => '原味拿鐵',
             'rose-latte' => '玫瑰拿鐵',
@@ -122,6 +127,7 @@ return [
         'wine' => [
             'title' => '葡萄酒',
             'bonne-chance-moscato' => '波香密斯微甜氣泡酒',
+            'signore-giuseppe' => '爵士阿斯堤微甜氣泡酒',
             'dominga-chardonnay' => '夏多內維白葡萄酒',
             'dominga-cabernet-sauvignon' => '卡內本蘇維濃紅葡萄酒',
         ],

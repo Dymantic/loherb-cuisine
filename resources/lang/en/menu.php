@@ -20,17 +20,18 @@ return [
             'title' => 'Starters',
             'soup-and-bread' => 'Soup & Bread',
             'shrimp-with-caviar' => 'Shrimp with Roe',
-            'salad-and-apple-vinegar' => 'Salad and Apple Vinegar',
+            'salad-and-apple-vinegar' => 'Yogurt Salad and Apple Vinegar',
+            'abalone-urchin' => 'Abalone with Urchin',
         ],
         'classic' => [
             'title' => 'Classic',
-            'tulip-chicken' => 'Tulip Chicken',
+            'mushroom-chicken' => 'Mushroom Chicken',
             'mustard-pork' => 'Mustard Pork',
             'vegetable-club' => 'Vegetable Club',
         ],
         'feast' => [
             'title' => 'Feast',
-            'beef-bourguignon' => 'Beef Bouruignon',
+            'beef-bourguignon' => 'Beef Bourguignonne',
             'duck-with-taro' => 'Duck with Taro',
             'spicy-salmon' => 'Spicy Salmon',
         ],
@@ -47,6 +48,7 @@ return [
             'honey-lemon' => 'Honey Lemon',
             'latte' => 'Latte',
             'kiwi-berry-tea' => 'Kiwi & Berry Tea',
+            'flower-tea' => 'Flower Tea'
         ],
     ],
 
@@ -71,6 +73,7 @@ return [
         'waffles' => [
             'title' => 'Waffles',
             'fruit-berries' => 'Fruit Berries',
+            'honey-fruit' => 'Honey Fruit',
             'chocolate' => 'Chocolate',
             'matcha' => 'Matcha',
         ],
@@ -82,10 +85,12 @@ return [
         'coffee' => [
             'title' => 'Coffee',
             'espresso' => 'Espresso',
+            'sicily-long' => 'Sicily Long Black',
+            'italian-latte' => 'Italian Latte',
             'american' => 'American',
             'latte' => 'Latte',
             'rose-latte' => 'Rose Latte',
-            'burnt-cream-latte' => 'Burnt Cream Latte',
+            'burnt-cream-latte' => 'Burnt Sugar Latte',
             'caramel-machiato' => 'Caramel Macchiato',
         ],
         'tea' => [
@@ -123,6 +128,7 @@ return [
         'wine' => [
             'title' => 'Wine',
             'bonne-chance-moscato' => 'Bonne Chance Moscato',
+            'signore-giuseppe' => 'Signore Giuseppe Asti',
             'dominga-chardonnay' => 'Dominga Chardonnay',
             'dominga-cabernet-sauvignon' => 'Dominga Cabernet Sauvignon',
         ],
