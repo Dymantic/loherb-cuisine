@@ -84,7 +84,7 @@ return [
             '/images/menu-images/dine/dine_1.png',
             '/images/menu-images/dine/dine_2.png',
             '/images/menu-images/dine/dine_3.png',
-            '/images/menu-images/dine/dine_5.png',
+//            '/images/menu-images/dine/dine_5.png', removed as requested by Ursa
 
         ]
     ],
