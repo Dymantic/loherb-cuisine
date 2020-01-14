@@ -137,7 +137,7 @@ return [
         'sections' => [
             'coffee' => [
                 'title'   => 'menu.beverages.coffee.title',
-                'price'   => 230,
+                'price'   => 160,
                 'options' => [
                     'menu.beverages.coffee.espresso',
                     'menu.beverages.coffee.sicily-long',
