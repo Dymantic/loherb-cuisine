@@ -9,7 +9,8 @@ return [
 
     'intro' => [
         'heading' => 'Get in Touch',
-        'content' => 'Please feel free to get in touch with any questions about Loherb Cuisine'
+        'content' => 'Please feel free to get in touch with any questions about Loherb Cuisine',
+        'service_times' => 'Customer service is available from 08:00 to 20:00.',
     ],
 
     'form' => [
