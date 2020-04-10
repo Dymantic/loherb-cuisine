@@ -9,6 +9,7 @@ import throttle from "lodash.throttle";
 require('./bootstrap');
 // import "flickity";
 import "flickity-imagesloaded";
+import "lazysizes";
 import jump from "jump.js";
 const Vue = require('vue');
 Vue.component('contact-form', require('./components/ContactForm'));
