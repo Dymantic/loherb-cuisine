@@ -5,6 +5,9 @@
             @include('front.menu.beverage-block', ['section' => $menu['beverages']['sections']['juice'], 'border' => 'right'])
         </div>
         <div class="w-full md:w-1/2 mb-8 md:mb-0">
+            @include('front.menu.beverage-block', ['section' => $menu['beverages']['sections']['soda'], 'border' => 'right'])
+        </div>
+        <div class="w-full md:w-1/2 mb-8 md:mb-0">
             @include('front.menu.beverage-block', ['section' => $menu['beverages']['sections']['aulait'], 'border' => 'left'])
         </div>
     </div>

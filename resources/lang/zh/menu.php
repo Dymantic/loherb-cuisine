@@ -20,34 +20,49 @@ return [
             'soup-and-bread' => '牛肝菌巧達湯 & 佛卡夏麵包',
             'shrimp-with-caviar' => '鮮魚卵佐海甜蝦',
             'salad-and-apple-vinegar' => '藍莓優格沙拉 & 奇芽籽蘋果醋',
-            'abalone-urchin' => '海膽醬佐莓汁鮑魚'
+            'abalone-urchin' => '海膽醬佐莓汁鮑魚',
+            'abalone-blueberry' => '藍莓醬佐莓汁鮑魚',
+            'oil-vinegar-salad' => '義式燻雞油醋沙拉＆青蘋香檳'
         ],
         'classic' => [
             'title' => '經典',
             'mushroom-chicken' => '洋菇雞腿排',
             'mustard-pork' => '芥末豬菲力',
             'vegetable-club' => '蔬食總匯',
+            'tulip-chicken' => '鬱金香雞腿排',
+            'pineapple-pork' => '菠蘿豬菲力'
         ],
         'feast' => [
             'title' => '風味',
             'beef-bourguignon' => '紅酒燉牛肉',
             'duck-with-taro' => '奶芋櫻桃鴨',
             'spicy-salmon' => '義式香料鮭魚',
+            'duck-pesto' => '蘭陽櫻桃鴨'
         ],
         'premium' => [
             'title' => '主廚',
             'sicily-seafood' => '海鮮總匯',
             'sirloin-steak' => '沙朗牛排',
             'lamb-with-mint' => '薄荷羊小排',
+            'beef-wellington' => '威靈頓牛排',
+            'hunter-tomahawk' => '獵人戰斧豬'
+        ],
+        'award' => [
+            'title' => '摘星',
+            'surf-and-turf' => '陸海空總匯',
+            'prime-sirloin' => '頂級莎朗牛'
         ],
         'beverages' => [
             'title' => '飲料',
-            'long-black' => '黑咖啡',
+            'long-black' => '美式咖啡',
             'milk-tea' => '鮮奶茶',
             'honey-lemon' => '檸檬汁',
             'latte' => '拿鐵',
             'kiwi-berry-tea' => '草莓果粒茶',
             'flower-tea' => '洛神花茶',
+            'lemon-soda' => '氣泡檸檬',
+            'black-tea' => '蜜香紅茶',
+
         ],
     ],
 
@@ -85,6 +100,7 @@ return [
             'title' => '義式咖啡',
             'espresso' => '濃縮咖啡',
             'sicily-long' => '西西里黑咖啡',
+            'double-long' => '深培黑咖啡',
             'italian-latte' => '義式拿鐵',
             'american' => '黑咖啡',
             'latte' => '原味拿鐵',
@@ -112,7 +128,14 @@ return [
             'chocolate-au-lait' =>'比利時可可',
             'matcha-au-lait' =>'宇治抹茶歐蕾',
             'assam-black-tea-au-lait' =>'皇家鮮奶茶',
-        ]
+        ],
+        'soda' => [
+            'title' => '氣泡飲',
+            'orange' => '橙陽蜜夏',
+            'red-berry' => '練戀紅梅',
+            'sicilia-coffee' => '香檸咖啡',
+            'cola' => '可樂',
+        ],
     ],
 
     'alcohol' => [

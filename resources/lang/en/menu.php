@@ -22,24 +22,36 @@ return [
             'shrimp-with-caviar' => 'Shrimp with Roe',
             'salad-and-apple-vinegar' => 'Yogurt Salad and Apple Vinegar',
             'abalone-urchin' => 'Abalone with Urchin',
+            'abalone-blueberry' => 'Abalone with Blueberry Sauce',
+            'oil-vinegar-salad' => 'Oil Vinegar Salad & Apple Champagne Soda'
         ],
         'classic' => [
             'title' => 'Classic',
             'mushroom-chicken' => 'Mushroom Chicken',
             'mustard-pork' => 'Mustard Pork',
             'vegetable-club' => 'Vegetable Club',
+            'tulip-chicken' => 'Tulip Chicken',
+            'pineapple-pork' => 'Pineapple Pork'
         ],
         'feast' => [
             'title' => 'Feast',
             'beef-bourguignon' => 'Beef Bourguignonne',
             'duck-with-taro' => 'Duck with Taro',
             'spicy-salmon' => 'Spicy Salmon',
+            'duck-pesto' => 'Duck with Pesto'
         ],
         'premium' => [
             'title' => 'Premium',
-            'sicily-seafood' => 'Sicily Seafood',
+            'sicily-seafood' => 'Seafood Club',
             'sirloin-steak' => 'Sirloin Steak',
             'lamb-with-mint' => 'Lamb with Mint',
+            'beef-wellington' => 'Beef Wellington',
+            'hunter-tomahawk' => 'Hunter Tomahawk'
+        ],
+        'award' => [
+            'title' => 'Award',
+            'surf-and-turf' => 'Surf and Turf',
+            'prime-sirloin' => 'Prime Sirloin Steak'
         ],
         'beverages' => [
             'title' => 'Beverage Choice',
@@ -48,7 +60,9 @@ return [
             'honey-lemon' => 'Honey Lemon',
             'latte' => 'Latte',
             'kiwi-berry-tea' => 'Kiwi & Berry Tea',
-            'flower-tea' => 'Flower Tea'
+            'flower-tea' => 'Flower Tea',
+            'lemon-soda' => 'Lemon Soda',
+            'black-tea' => 'Black Tea',
         ],
     ],
 
@@ -86,6 +100,7 @@ return [
             'title' => 'Coffee',
             'espresso' => 'Espresso',
             'sicily-long' => 'Sicily Long Black',
+            'double-long' => 'Double Long Black',
             'italian-latte' => 'Italian Latte',
             'american' => 'American',
             'latte' => 'Latte',
@@ -113,7 +128,14 @@ return [
             'chocolate-au-lait' =>'Chocolate Au Lait',
             'matcha-au-lait' =>'Matcha Au Lait',
             'assam-black-tea-au-lait' =>'Assam Black Tea Au Lait',
-        ]
+        ],
+        'soda' => [
+            'title' => 'Soda',
+            'orange' => 'Orange Soda',
+            'red-berry' => 'Red Berry Soda',
+            'sicilia-coffee' => 'Sicilia Coffee Soda',
+            'cola' => 'Cola',
+        ],
     ],
 
     'alcohol' => [

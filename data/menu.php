@@ -30,8 +30,8 @@ return [
             'title'   => 'menu.dine.starters.title',
             'courses' => [
                 'menu.dine.starters.soup-and-bread',
-                'menu.dine.starters.abalone-urchin',
-                'menu.dine.starters.salad-and-apple-vinegar',
+                'menu.dine.starters.abalone-blueberry',
+                'menu.dine.starters.oil-vinegar-salad',
             ]
         ],
         'options'   => [
@@ -39,8 +39,8 @@ return [
                 'title'   => 'menu.dine.classic.title',
                 'price'   => '580',
                 'choices' => [
-                    'menu.dine.classic.mushroom-chicken',
-                    'menu.dine.classic.mustard-pork',
+                    'menu.dine.classic.tulip-chicken',
+                    'menu.dine.classic.pineapple-pork',
                     'menu.dine.classic.vegetable-club'
                 ]
             ],
@@ -49,7 +49,7 @@ return [
                 'price'   => '680',
                 'choices' => [
                     'menu.dine.feast.beef-bourguignon',
-                    'menu.dine.feast.duck-with-taro',
+                    'menu.dine.feast.duck-pesto',
                     'menu.dine.feast.spicy-salmon'
                 ]
             ],
@@ -58,19 +58,26 @@ return [
                 'price'   => '880',
                 'choices' => [
                     'menu.dine.premium.sicily-seafood',
-                    'menu.dine.premium.sirloin-steak',
-                    'menu.dine.premium.lamb-with-mint'
+                    'menu.dine.premium.beef-wellington',
+                    'menu.dine.premium.hunter-tomahawk'
+                ]
+            ],
+            [
+                'title'   => 'menu.dine.award.title',
+                'price'   => '980',
+                'choices' => [
+                    'menu.dine.award.surf-and-turf',
+                    'menu.dine.award.prime-sirloin',
                 ]
             ]
         ],
         'beverages' => [
             'title'   => 'menu.dine.beverages.title',
             'options' => [
+                'lemon-soda',
+                'black-tea',
                 'long-black',
-                'milk-tea',
-                'honey-lemon',
-                'latte',
-                'flower-tea'
+                'flower-tea',
             ]
         ],
 
@@ -84,6 +91,11 @@ return [
             '/images/menu-images/dine/dine_1.png',
             '/images/menu-images/dine/dine_2.png',
             '/images/menu-images/dine/dine_3.png',
+            '/images/menu-images/dine/wellington.png',
+            '/images/menu-images/dine/lamb_dine.png',
+            '/images/menu-images/dine/abalone_starter.png',
+            '/images/menu-images/dine/salad_starter.png',
+            '/images/menu-images/dine/flower_starter.png',
 //            '/images/menu-images/dine/dine_5.png', removed as requested by Ursa
 
         ]
@@ -129,6 +141,8 @@ return [
             '/images/menu-images/brunch/tea_3.png',
             '/images/menu-images/brunch/tea_4.png',
             '/images/menu-images/brunch/tea_5.png',
+            '/images/menu-images/brunch/cannelle.png',
+            '/images/menu-images/brunch/cheesecake.png',
         ]
     ],
 
@@ -140,9 +154,9 @@ return [
                 'price'   => 160,
                 'options' => [
                     'menu.beverages.coffee.espresso',
-                    'menu.beverages.coffee.sicily-long',
+                    'menu.beverages.coffee.double-long',
                     'menu.beverages.coffee.italian-latte',
-                    'menu.beverages.coffee.rose-latte',
+//                    'menu.beverages.coffee.rose-latte',
                     'menu.beverages.coffee.burnt-cream-latte',
                     'menu.beverages.coffee.caramel-machiato',
                 ]
@@ -154,7 +168,7 @@ return [
                     'menu.beverages.tea.four-seasons-tea',
                     'menu.beverages.tea.earl-black-tea',
                     'menu.beverages.tea.iron-buddhism-tea',
-                    'menu.beverages.tea.kiwi-strawberry-tea',
+//                    'menu.beverages.tea.kiwi-strawberry-tea',
                 ]
             ],
             'juice' => [
@@ -176,7 +190,18 @@ return [
                     'menu.beverages.au-lait.matcha-au-lait',
                     'menu.beverages.au-lait.assam-black-tea-au-lait',
                 ]
-            ]
+            ],
+            'soda' => [
+                'title'   => 'menu.beverages.soda.title',
+                'price'   => 160,
+                'options' => [
+                    'menu.beverages.soda.orange',
+                    'menu.beverages.soda.red-berry',
+                    'menu.beverages.soda.sicilia-coffee',
+                    'menu.beverages.soda.cola',
+                ]
+            ],
+
         ],
         'images'   => [
 
@@ -184,6 +209,7 @@ return [
             '/images/menu-images/beverages/beverage_2.png',
             '/images/menu-images/beverages/beverage_3.png',
             '/images/menu-images/beverages/beverage_4.png',
+            '/images/menu-images/beverages/strawberry_drink.png',
         ]
     ],
 
