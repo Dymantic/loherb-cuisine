@@ -17,7 +17,7 @@ return [
 
         'starters' => [
             'title' => '前菜',
-            'soup-and-bread' => '牛肝菌巧達湯 & 佛卡夏麵包',
+            'soup-and-bread' => '雪貝南瓜濃湯 & 佛卡夏麵包',
             'shrimp-with-caviar' => '鮮魚卵佐海甜蝦',
             'salad-and-apple-vinegar' => '藍莓優格沙拉 & 奇芽籽蘋果醋',
             'abalone-urchin' => '海膽醬佐莓汁鮑魚',

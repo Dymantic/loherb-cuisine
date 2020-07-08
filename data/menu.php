@@ -83,6 +83,9 @@ return [
 
         'images' => [
 
+            '/images/menu-images/dine/wellington.png',
+            '/images/menu-images/dine/abalone_starter.png',
+            '/images/menu-images/dine/salad_starter.png',
             '/images/menu-images/dine/dine_soup.png',
             '/images/menu-images/dine/dine_pork.png',
             '/images/menu-images/dine/dine_chicken.png',
@@ -91,10 +94,7 @@ return [
             '/images/menu-images/dine/dine_1.png',
             '/images/menu-images/dine/dine_2.png',
             '/images/menu-images/dine/dine_3.png',
-            '/images/menu-images/dine/wellington.png',
             '/images/menu-images/dine/lamb_dine.png',
-            '/images/menu-images/dine/abalone_starter.png',
-            '/images/menu-images/dine/salad_starter.png',
             '/images/menu-images/dine/flower_starter.png',
 //            '/images/menu-images/dine/dine_5.png', removed as requested by Ursa
 
