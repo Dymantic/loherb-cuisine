@@ -83,7 +83,7 @@ return [
 
         'images' => [
 
-            '/images/menu-images/dine/wellington.png',
+            '/images/menu-images/dine/wellington_pink.png',
             '/images/menu-images/dine/abalone_starter.png',
             '/images/menu-images/dine/salad_starter.png',
             '/images/menu-images/dine/dine_soup.png',
