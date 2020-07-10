@@ -139,7 +139,7 @@ return [
             '/images/menu-images/brunch/tea_1.png',
             '/images/menu-images/brunch/tea_2.png',
             '/images/menu-images/brunch/tea_3.png',
-            '/images/menu-images/brunch/tea_4.png',
+//            '/images/menu-images/brunch/tea_4.png', removed as per Ursa
             '/images/menu-images/brunch/tea_5.png',
             '/images/menu-images/brunch/cannelle.png',
             '/images/menu-images/brunch/cheesecake.png',
