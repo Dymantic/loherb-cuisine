@@ -1,6 +1,6 @@
 <section id="beverages" class="bg-pinky-grey max-w-xl reg-section-space mx-auto my-12">
     <p class="font-sans font-medium text-navy mb-12 uppercase text-center">{{ trans($menu['beverages']['title']) }}</p>
-    <div class="max-w-md mx-auto flex flex-col md:flex-row justify-between md:pb-16">
+    <div class="mx-auto flex flex-col md:flex-row justify-between md:pb-16">
         <div class="w-full md:w-1/2 mb-8 md:mb-0">
             @include('front.menu.beverage-block', ['section' => $menu['beverages']['sections']['juice'], 'border' => 'right'])
         </div>
