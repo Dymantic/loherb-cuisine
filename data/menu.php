@@ -94,7 +94,7 @@ return [
             '/images/menu-images/dine/tomahawk_pork_chop.png',
             '/images/menu-images/dine/soup_of_day_two.png',
             '/images/menu-images/dine/vegetarian_appetizer.png',
-            '/images/menu-images/dine/devilled_eggs.png',
+            '/images/menu-images/dine/scallop_devilled_eggs.png',
 //            '/images/menu-images/dine/abalone_starter.png',
 //            '/images/menu-images/dine/salad_starter.png',
 //            '/images/menu-images/dine/dine_soup.png',
