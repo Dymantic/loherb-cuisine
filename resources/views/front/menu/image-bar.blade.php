@@ -3,7 +3,7 @@
         @foreach($images as $image)
         <div class="w-full md:w-1/3">
             <img data-src="{{ $image }}"
-                 alt="" class="h-64 block mx-auto lazyload">
+                 alt="" class="h-64 w-64 object-contain block mx-auto lazyload">
         </div>
         @endforeach
     </div>

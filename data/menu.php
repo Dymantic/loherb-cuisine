@@ -29,9 +29,8 @@ return [
         'starters'  => [
             'title'   => 'menu.dine.starters.title',
             'courses' => [
-                'menu.dine.starters.soup-and-bread',
-                'menu.dine.starters.abalone-blueberry',
-                'menu.dine.starters.oil-vinegar-salad',
+                'menu.dine.starters.devilled-eggs',
+                'menu.dine.starters.garden-salad',
             ]
         ],
         'options'   => [
@@ -39,7 +38,7 @@ return [
                 'title'   => 'menu.dine.classic.title',
                 'price'   => '580',
                 'choices' => [
-                    'menu.dine.classic.tulip-chicken',
+                    'menu.dine.classic.tandoori-chicken',
                     'menu.dine.classic.pineapple-pork',
                     'menu.dine.classic.vegetable-club'
                 ]
@@ -48,9 +47,10 @@ return [
                 'title'   => 'menu.dine.feast.title',
                 'price'   => '680',
                 'choices' => [
+                    'menu.dine.feast.pork-ribs-honey',
                     'menu.dine.feast.beef-bourguignon',
-                    'menu.dine.feast.duck-pesto',
-                    'menu.dine.feast.spicy-salmon'
+                    'menu.dine.feast.roasted-duck',
+                    'menu.dine.feast.grilled-fish'
                 ]
             ],
             [
@@ -59,7 +59,6 @@ return [
                 'choices' => [
                     'menu.dine.premium.sicily-seafood',
                     'menu.dine.premium.beef-wellington',
-                    'menu.dine.premium.hunter-tomahawk'
                 ]
             ],
             [
@@ -67,8 +66,15 @@ return [
                 'price'   => '980',
                 'choices' => [
                     'menu.dine.award.surf-and-turf',
-                    'menu.dine.award.prime-sirloin',
+                    'menu.dine.award.ribeye',
+                    'menu.dine.award.pork-chops',
                 ]
+            ]
+        ],
+        'dessert' => [
+            'title' => 'menu.dine.dessert.title',
+            'options' => [
+                'handmade-dessert',
             ]
         ],
         'beverages' => [
@@ -84,17 +90,22 @@ return [
         'images' => [
 
             '/images/menu-images/dine/wellington_pink.png',
-            '/images/menu-images/dine/abalone_starter.png',
-            '/images/menu-images/dine/salad_starter.png',
-            '/images/menu-images/dine/dine_soup.png',
-            '/images/menu-images/dine/dine_pork.png',
-            '/images/menu-images/dine/dine_chicken.png',
-            '/images/menu-images/dine/dine_salad.png',
-            '/images/menu-images/dine/dine_starter.png',
-            '/images/menu-images/dine/dine_1.png',
-            '/images/menu-images/dine/dine_2.png',
-            '/images/menu-images/dine/dine_3.png',
-            '/images/menu-images/dine/lamb_dine.png',
+            '/images/menu-images/dine/soup_of_day.png',
+            '/images/menu-images/dine/tomahawk_pork_chop.png',
+            '/images/menu-images/dine/soup_of_day_two.png',
+            '/images/menu-images/dine/vegetarian_appetizer.png',
+            '/images/menu-images/dine/devilled_eggs.png',
+//            '/images/menu-images/dine/abalone_starter.png',
+//            '/images/menu-images/dine/salad_starter.png',
+//            '/images/menu-images/dine/dine_soup.png',
+//            '/images/menu-images/dine/dine_pork.png',
+//            '/images/menu-images/dine/dine_chicken.png',
+//            '/images/menu-images/dine/dine_salad.png',
+//            '/images/menu-images/dine/dine_starter.png',
+//            '/images/menu-images/dine/dine_1.png',
+//            '/images/menu-images/dine/dine_2.png',
+//            '/images/menu-images/dine/dine_3.png',
+//            '/images/menu-images/dine/lamb_dine.png',
 //            '/images/menu-images/dine/flower_starter.png',
 //            '/images/menu-images/dine/dine_5.png', removed as requested by Ursa
 

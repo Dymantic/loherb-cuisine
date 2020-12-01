@@ -23,7 +23,9 @@ return [
             'salad-and-apple-vinegar' => 'Yogurt Salad and Apple Vinegar',
             'abalone-urchin' => 'Abalone with Urchin',
             'abalone-blueberry' => 'Abalone with Blueberry Sauce',
-            'oil-vinegar-salad' => 'Oil Vinegar Salad & Apple Champagne Soda'
+            'oil-vinegar-salad' => 'Oil Vinegar Salad & Apple Champagne Soda',
+            'devilled-eggs' => 'Broiled Scallop Devilled Eggs',
+            'garden-salad' => 'Garden Salad',
         ],
         'classic' => [
             'title' => 'Classic',
@@ -31,14 +33,18 @@ return [
             'mustard-pork' => 'Mustard Pork',
             'vegetable-club' => 'Vegetable Club',
             'tulip-chicken' => 'Tulip Chicken',
-            'pineapple-pork' => 'Pineapple Pork'
+            'pineapple-pork' => 'Pineapple Pork',
+            'tandoori-chicken' => 'Tandoori Chicken',
         ],
         'feast' => [
             'title' => 'Feast',
             'beef-bourguignon' => 'Beef Bourguignonne',
             'duck-with-taro' => 'Duck with Taro',
             'spicy-salmon' => 'Spicy Salmon',
-            'duck-pesto' => 'Duck with Pesto'
+            'duck-pesto' => 'Duck with Pesto',
+            'pork-ribs-honey' => 'Basted Pork Spare Ribs with Honey BBQ Sauce',
+            'roasted-duck' => 'Roasted Duck with Beetroot Sauce',
+            'grilled-fish' => 'Grilled Fish with Puttanesca Sauce',
         ],
         'premium' => [
             'title' => 'Premium',
@@ -51,7 +57,9 @@ return [
         'award' => [
             'title' => 'Award',
             'surf-and-turf' => 'Surf and Turf',
-            'prime-sirloin' => 'Prime Sirloin Steak'
+            'prime-sirloin' => 'Prime Sirloin Steak',
+            'ribeye' => 'U.S. Prime Ribeye',
+            'pork-chops' => 'Sous-vide Tomahawk Pork Chops',
         ],
         'beverages' => [
             'title' => 'Beverage Choice',
@@ -63,6 +71,10 @@ return [
             'flower-tea' => 'Flower Tea',
             'lemon-soda' => 'Lemon Soda',
             'black-tea' => 'Black Tea',
+        ],
+        'dessert' => [
+            'title' => 'Dessert',
+            'handmade-dessert' => 'Handmade Dessert'
         ],
     ],
 

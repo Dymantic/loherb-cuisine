@@ -22,7 +22,9 @@ return [
             'salad-and-apple-vinegar' => '藍莓優格沙拉 & 奇芽籽蘋果醋',
             'abalone-urchin' => '海膽醬佐莓汁鮑魚',
             'abalone-blueberry' => '藍莓醬佐莓汁鮑魚',
-            'oil-vinegar-salad' => '義式燻雞油醋沙拉＆青蘋香檳'
+            'oil-vinegar-salad' => '義式燻雞油醋沙拉＆青蘋香檳',
+            'devilled-eggs' => '鮮貝與惡魔',
+            'garden-salad' => '日光農夫花園沙拉',
         ],
         'classic' => [
             'title' => '經典',
@@ -30,14 +32,18 @@ return [
             'mustard-pork' => '芥末豬菲力',
             'vegetable-club' => '蔬食總匯',
             'tulip-chicken' => '鬱金香雞腿排',
-            'pineapple-pork' => '菠蘿豬菲力'
+            'pineapple-pork' => '菠蘿豬菲力',
+            'tandoori-chicken' => '印度香料烤雞',
         ],
         'feast' => [
             'title' => '風味',
             'beef-bourguignon' => '紅酒燉牛肉',
             'duck-with-taro' => '奶芋櫻桃鴨',
             'spicy-salmon' => '義式香料鮭魚',
-            'duck-pesto' => '蘭陽櫻桃鴨'
+            'duck-pesto' => '蘭陽櫻桃鴨',
+            'pork-ribs-honey' => '美式聖路易肋排',
+            'roasted-duck' => '爐烤蘭陽櫻桃鴨',
+            'grilled-fish' => '煙花女烤鮮魚',
         ],
         'premium' => [
             'title' => '主廚',
@@ -50,7 +56,9 @@ return [
         'award' => [
             'title' => '摘星',
             'surf-and-turf' => '陸海空總匯',
-            'prime-sirloin' => '頂級莎朗牛'
+            'prime-sirloin' => '頂級莎朗牛',
+            'ribeye' => '頂級肋眼牛排',
+            'pork-chops' => '低溫舒肥戰斧豬排',
         ],
         'beverages' => [
             'title' => '飲料',
@@ -63,6 +71,10 @@ return [
             'lemon-soda' => '氣泡檸檬',
             'black-tea' => '蜜香紅茶',
 
+        ],
+        'dessert' => [
+            'title' => '甜點',
+            'handmade-dessert' => '手作甜點'
         ],
     ],
 
