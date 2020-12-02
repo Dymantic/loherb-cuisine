@@ -27,7 +27,7 @@
             <span class="block mx-auto md:inline px-4 @if(!$loop->last) md:border-r md:border-purple @endif">{{ trans('menu.dine.dessert.' . $option) }}</span>
         @endforeach
     </div>
-    <p class="heading-text text-purple capitalize mt-12 mb-4">{{ trans($menu['dine']['beverages']['title']) }}</p>
+    <p class="heading-text text-purple capitalize mt-12 mb-2 md:mb-4">{{ trans($menu['dine']['beverages']['title']) }}</p>
     <div class="text-purple text-center">
         @foreach($menu['dine']['beverages']['options'] as $option)
             <span class="block mx-auto md:inline px-4 @if(!$loop->last) md:border-r md:border-purple @endif">{{ trans('menu.dine.beverages.' . $option) }}</span>
