@@ -76,6 +76,11 @@ return [
             'title' => '甜點',
             'handmade-dessert' => '手作甜點'
         ],
+        'soup' => [
+            'title' => '湯品',
+            'soup_of_day' => '主廚每日例湯',
+            'bread' => '鄉村麵包',
+        ],
     ],
 
     'brunch' => [

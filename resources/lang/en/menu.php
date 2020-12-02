@@ -76,6 +76,11 @@ return [
             'title' => 'Dessert',
             'handmade-dessert' => 'Handmade Dessert'
         ],
+        'soup' => [
+            'title' => 'Soup',
+            'soup_of_day' => 'Soup of the Day',
+            'bread' => 'Bread',
+        ],
     ],
 
     'brunch' => [

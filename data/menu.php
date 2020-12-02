@@ -71,6 +71,13 @@ return [
                 ]
             ]
         ],
+        'soup' => [
+            'title' => 'menu.dine.soup.title',
+            'options' => [
+                'soup_of_day',
+                'bread',
+            ]
+        ],
         'dessert' => [
             'title' => 'menu.dine.dessert.title',
             'options' => [
@@ -89,24 +96,24 @@ return [
 
         'images' => [
 
-            '/images/menu-images/dine/wellington_pink.png',
-            '/images/menu-images/dine/soup_of_day.png',
-            '/images/menu-images/dine/tomahawk_pork_chop.png',
             '/images/menu-images/dine/soup_of_day_two.png',
+            '/images/menu-images/dine/tomahawk_pork_chop.png',
             '/images/menu-images/dine/vegetarian_appetizer.png',
+            '/images/menu-images/dine/soup_of_day.png',
             '/images/menu-images/dine/scallop_devilled_eggs.png',
-//            '/images/menu-images/dine/abalone_starter.png',
-//            '/images/menu-images/dine/salad_starter.png',
-//            '/images/menu-images/dine/dine_soup.png',
-//            '/images/menu-images/dine/dine_pork.png',
-//            '/images/menu-images/dine/dine_chicken.png',
-//            '/images/menu-images/dine/dine_salad.png',
-//            '/images/menu-images/dine/dine_starter.png',
-//            '/images/menu-images/dine/dine_1.png',
-//            '/images/menu-images/dine/dine_2.png',
-//            '/images/menu-images/dine/dine_3.png',
-//            '/images/menu-images/dine/lamb_dine.png',
-//            '/images/menu-images/dine/flower_starter.png',
+            '/images/menu-images/dine/wellington_pink.png',
+            '/images/menu-images/dine/abalone_starter.png',
+            '/images/menu-images/dine/salad_starter.png',
+            '/images/menu-images/dine/dine_soup.png',
+            '/images/menu-images/dine/dine_pork.png',
+            '/images/menu-images/dine/dine_chicken.png',
+            '/images/menu-images/dine/dine_salad.png',
+            '/images/menu-images/dine/dine_starter.png',
+            '/images/menu-images/dine/dine_1.png',
+            '/images/menu-images/dine/dine_2.png',
+            '/images/menu-images/dine/dine_3.png',
+            '/images/menu-images/dine/lamb_dine.png',
+            '/images/menu-images/dine/flower_starter.png',
 //            '/images/menu-images/dine/dine_5.png', removed as requested by Ursa
 
         ]
