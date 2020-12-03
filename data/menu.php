@@ -110,10 +110,10 @@ return [
             '/images/menu-images/dine/dine_salad.png',
             '/images/menu-images/dine/dine_starter.png',
             '/images/menu-images/dine/dine_1.png',
-            '/images/menu-images/dine/dine_2.png',
+//            '/images/menu-images/dine/dine_2.png',
             '/images/menu-images/dine/dine_3.png',
-            '/images/menu-images/dine/lamb_dine.png',
-            '/images/menu-images/dine/flower_starter.png',
+//            '/images/menu-images/dine/lamb_dine.png',
+//            '/images/menu-images/dine/flower_starter.png',
 //            '/images/menu-images/dine/dine_5.png', removed as requested by Ursa
 
         ]
