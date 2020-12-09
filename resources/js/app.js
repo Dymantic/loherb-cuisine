@@ -11,9 +11,13 @@ require('./bootstrap');
 import "flickity-imagesloaded";
 import "lazysizes";
 import jump from "jump.js";
-const Vue = require('vue');
-Vue.component('contact-form', require('./components/ContactForm'));
-Vue.component('bookings-page', require('./components/BookingsPage'));
+import Vue from "vue";
+
+import ContactForm from './components/ContactForm';
+import BookingsPage from './components/BookingsPage';
+
+Vue.component('contact-form', ContactForm);
+Vue.component('bookings-page', BookingsPage);
 
 
 /**
