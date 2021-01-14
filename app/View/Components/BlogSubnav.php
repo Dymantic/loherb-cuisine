@@ -7,7 +7,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 use Illuminate\View\Component;
 
-class BlogSubNav extends Component
+class BlogSubnav extends Component
 {
     public $current;
     public $subcategories;
