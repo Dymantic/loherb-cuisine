@@ -87,7 +87,7 @@ return [
         'beverages' => [
             'title'   => 'menu.dine.beverages.title',
             'options' => [
-                'lemon-soda',
+                'kumquat-tea',
                 'black-tea',
                 'long-black',
                 'flower-tea',

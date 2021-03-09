@@ -37,7 +37,7 @@ return [
         ],
         'feast' => [
             'title' => '風味',
-            'beef-bourguignon' => '紅酒燉牛肉',
+            'beef-bourguignon' => '法式紅酒牛',
             'duck-with-taro' => '奶芋櫻桃鴨',
             'spicy-salmon' => '義式香料鮭魚',
             'duck-pesto' => '蘭陽櫻桃鴨',
@@ -70,6 +70,7 @@ return [
             'flower-tea' => '洛神花茶',
             'lemon-soda' => '氣泡檸檬',
             'black-tea' => '蜜香紅茶',
+            'kumquat-tea' => '熱鄉桔茶',
 
         ],
         'dessert' => [

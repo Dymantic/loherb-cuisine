@@ -38,7 +38,7 @@ return [
         ],
         'feast' => [
             'title' => 'Feast',
-            'beef-bourguignon' => 'Beef Bourguignonne',
+            'beef-bourguignon' => 'Beef Bourguignon',
             'duck-with-taro' => 'Duck with Taro',
             'spicy-salmon' => 'Spicy Salmon',
             'duck-pesto' => 'Duck with Pesto',
@@ -71,6 +71,7 @@ return [
             'flower-tea' => 'Flower Tea',
             'lemon-soda' => 'Lemon Soda',
             'black-tea' => 'Black Tea',
+            'kumquat-tea' => 'Kumquat Tea',
         ],
         'dessert' => [
             'title' => 'Dessert',
