@@ -1,11 +1,11 @@
-<section id="dine" class="bg-pinky-grey max-w-xl reg-section-space flex flex-col items-center mx-auto">
-    <p class="font-sans font-medium text-navy mb-8 uppercase">{{ trans('menu.dine.title') }}</p>
-    <p class="mb-2 md:mb-4 heading-text text-purple capitalize">{{ trans($menu['dine']['starters']['title']) }}</p>
+<section id="dine" class="bg-pinky-grey max-w-5xl reg-section-space flex flex-col items-center mx-auto">
+    <p class="type-a1 text-navy mb-8 uppercase">{{ trans('menu.dine.title') }}</p>
+    <p class="mb-2 md:mb-4 type-h1 text-purple capitalize">{{ trans($menu['dine']['starters']['title']) }}</p>
     @foreach($menu['dine']['starters']['courses'] as $course)
         <p class="text-purple capitalize">{{ trans($course) }}</p>
     @endforeach
 
-        <p class="mb-2 md:mb-4 heading-text text-purple capitalize mt-12">{{ trans($menu['dine']['soup']['title']) }}</p>
+        <p class="mb-2 md:mb-4 type-h1 text-purple capitalize mt-12">{{ trans($menu['dine']['soup']['title']) }}</p>
         <div class="text-purple text-center">
             @foreach($menu['dine']['soup']['options'] as $option)
                 <p class="text-purple capitalize">{{ trans('menu.dine.soup.' . $option) }}</p>
@@ -21,13 +21,13 @@
             ])
         @endforeach
     </div>
-    <p class="heading-text text-purple capitalize mb-2">{{ trans($menu['dine']['dessert']['title']) }}</p>
+    <p class="type-h1 text-purple capitalize mb-2">{{ trans($menu['dine']['dessert']['title']) }}</p>
     <div class="text-purple text-center">
         @foreach($menu['dine']['dessert']['options'] as $option)
             <span class="block mx-auto md:inline px-4 @if(!$loop->last) md:border-r md:border-purple @endif">{{ trans('menu.dine.dessert.' . $option) }}</span>
         @endforeach
     </div>
-    <p class="heading-text text-purple capitalize mt-12 mb-2 md:mb-4">{{ trans($menu['dine']['beverages']['title']) }}</p>
+    <p class="type-h1 text-purple capitalize mt-12 mb-2 md:mb-4">{{ trans($menu['dine']['beverages']['title']) }}</p>
     <div class="text-purple text-center">
         @foreach($menu['dine']['beverages']['options'] as $option)
             <span class="block mx-auto md:inline px-4 @if(!$loop->last) md:border-r md:border-purple @endif">{{ trans('menu.dine.beverages.' . $option) }}</span>

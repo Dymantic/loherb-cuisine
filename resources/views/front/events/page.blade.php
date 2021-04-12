@@ -37,7 +37,7 @@
         </div>
     </section>
     @component('components.info-section-light', ['title' => trans('events.venue.heading')])
-        <div class="max-w-xl mx-auto mb-20 flex flex-wrap">
+        <div class="max-w-4xl mx-auto mb-20 flex flex-wrap">
             @foreach($amenities as $amenity)
                 <div class="w-full md:w-1/2 my-1">
                     <div class="w-56 max-w-full mx-auto flex items-start text-green-main my-1">
