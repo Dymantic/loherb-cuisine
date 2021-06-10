@@ -123,7 +123,7 @@ return [
             'title' => 'Cakes',
             'matcha' => 'Matcha',
             'chocolate' => 'Chocolate',
-            'cheese' => ' Kumquat Cheese Cake',
+            'cheese' => ' Kumquat Cheese',
         ],
         'waffles' => [
             'title' => 'Waffles',
