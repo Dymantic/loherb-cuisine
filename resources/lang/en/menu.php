@@ -13,11 +13,13 @@ return [
         'content' => 'Peruse our famous menu and start deciding what to feast on.'
     ],
 
+    'appetizers' => 'Appetizer',
+
     'dine' => [
         'title' => 'Dine',
 
         'starters' => [
-            'title' => 'Starters',
+            'title' => 'Salad Choice',
             'soup-and-bread' => 'Soup & Bread',
             'shrimp-with-caviar' => 'Shrimp with Roe',
             'salad-and-apple-vinegar' => 'Yogurt Salad and Apple Vinegar',
@@ -26,6 +28,9 @@ return [
             'oil-vinegar-salad' => 'Oil Vinegar Salad & Apple Champagne Soda',
             'devilled-eggs' => 'Broiled Scallop Devilled Eggs',
             'garden-salad' => 'Garden Salad',
+            'balsamic-salad' => 'Balsamic Vinaigrette Salad',
+            'thousand-island-salad' => 'Thousand Island Salad',
+            'sesame-salad' => 'Sesame Sauce Salad',
         ],
         'classic' => [
             'title' => 'Classic',
@@ -35,6 +40,7 @@ return [
             'tulip-chicken' => 'Tulip Chicken',
             'pineapple-pork' => 'Pineapple Pork',
             'tandoori-chicken' => 'Tandoori Chicken',
+            'bolognese-penne' => 'Bolognese Penne',
         ],
         'feast' => [
             'title' => 'Feast',
@@ -45,6 +51,9 @@ return [
             'pork-ribs-honey' => 'Basted Pork Spare Ribs with Honey BBQ Sauce',
             'roasted-duck' => 'Roasted Duck with Beetroot Sauce',
             'grilled-fish' => 'Grilled Fish with Puttanesca Sauce',
+            'tandoori-chicken' => 'Tandoori Chicken',
+            'pineapple-pork' => 'Pineapple Pork',
+            'fish-puttanesca' => 'Grilled Fish with Puttanesca Sauce',
         ],
         'premium' => [
             'title' => 'Premium',
@@ -52,7 +61,14 @@ return [
             'sirloin-steak' => 'Sirloin Steak',
             'lamb-with-mint' => 'Lamb with Mint',
             'beef-wellington' => 'Beef Wellington',
-            'hunter-tomahawk' => 'Hunter Tomahawk'
+            'hunter-tomahawk' => 'Hunter Tomahawk',
+            'seafood-club' => 'Seafood Club',
+            'lamb-makauy' => 'Roasted Lamb Shoulder with Makauy Salsa'
+        ],
+        'specialty' => [
+            'title' => 'Specialty',
+            'duck-beetroot' => 'Roasted Duck with Beetroot Sauce',
+            'ribs-bbq-honey' => 'Basted Pork Spare Ribs with Honey BBQ Sauce',
         ],
         'award' => [
             'title' => 'Award',
@@ -60,6 +76,8 @@ return [
             'prime-sirloin' => 'Prime Sirloin Steak',
             'ribeye' => 'U.S. Prime Ribeye',
             'pork-chops' => 'Sous-vide Tomahawk Pork Chops',
+            'sous-vide-tomohawk' => 'Sous-Vide Tomahawk Pork Chops',
+            'strip-steak' => 'Strip Steak',
         ],
         'beverages' => [
             'title' => 'Beverage Choice',
@@ -72,10 +90,15 @@ return [
             'lemon-soda' => 'Lemon Soda',
             'black-tea' => 'Black Tea',
             'kumquat-tea' => 'Kumquat Tea',
+            'chia-apple-vinegar' => 'Chia Seeds Apple Vinegar',
+            'herbal-tea' => 'Herbal Tea',
+            'earl-grey' => 'Early Grey Tea',
         ],
         'dessert' => [
             'title' => 'Dessert',
-            'handmade-dessert' => 'Handmade Dessert'
+            'handmade-dessert' => 'Handmade Dessert',
+            'jewelry-box' => 'Jewelry Box',
+            'kumquat-cheese' => 'Kumquat Cheese Cake'
         ],
         'soup' => [
             'title' => 'Soup',
@@ -100,7 +123,7 @@ return [
             'title' => 'Cakes',
             'matcha' => 'Matcha',
             'chocolate' => 'Chocolate',
-            'cheese' => 'Cheese',
+            'cheese' => ' Kumquat Cheese Cake',
         ],
         'waffles' => [
             'title' => 'Waffles',
@@ -125,6 +148,7 @@ return [
             'rose-latte' => 'Rose Latte',
             'burnt-cream-latte' => 'Burnt Sugar Latte',
             'caramel-machiato' => 'Caramel Macchiato',
+            'mocha-smoothie' => 'Mocha Coffee Smoothie',
         ],
         'tea' => [
             'title' => 'Tea',
@@ -146,6 +170,7 @@ return [
             'chocolate-au-lait' =>'Chocolate Au Lait',
             'matcha-au-lait' =>'Matcha Au Lait',
             'assam-black-tea-au-lait' =>'Assam Black Tea Au Lait',
+            'vanilla-milk-smoothie' => 'Vanilla Milk Smoothie',
         ],
         'soda' => [
             'title' => 'Soda',

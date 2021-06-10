@@ -12,11 +12,13 @@ return [
         'content' => '看看我們營養師與主廚的精心設計'
     ],
 
+    'appetizers' => '前菜',
+
     'dine' => [
         'title' => '日光套餐',
 
         'starters' => [
-            'title' => '前菜',
+            'title' => '花園沙拉',
             'soup-and-bread' => '雪貝南瓜濃湯 & 佛卡夏麵包',
             'shrimp-with-caviar' => '鮮魚卵佐海甜蝦',
             'salad-and-apple-vinegar' => '藍莓優格沙拉 & 奇芽籽蘋果醋',
@@ -25,6 +27,9 @@ return [
             'oil-vinegar-salad' => '義式燻雞油醋沙拉＆青蘋香檳',
             'devilled-eggs' => '鮮貝與惡魔',
             'garden-salad' => '日光農夫花園沙拉',
+            'balsamic-salad' => '義式蜂蜜油醋沙拉',
+            'thousand-island-salad' => '千島沙拉',
+            'sesame-salad' => '日式和風胡麻沙拉',
         ],
         'classic' => [
             'title' => '經典',
@@ -34,6 +39,7 @@ return [
             'tulip-chicken' => '鬱金香雞腿排',
             'pineapple-pork' => '菠蘿豬菲力',
             'tandoori-chicken' => '印度香料烤雞',
+            'bolognese-penne' => '焗烤波隆納筆管麵',
         ],
         'feast' => [
             'title' => '風味',
@@ -44,6 +50,14 @@ return [
             'pork-ribs-honey' => '美式聖路易肋排',
             'roasted-duck' => '爐烤蘭陽櫻桃鴨',
             'grilled-fish' => '煙花女烤鮮魚',
+            'tandoori-chicken' => '印度香料烤雞',
+            'pineapple-pork' => '菠蘿香草豬',
+            'fish-puttanesca' => '煙花女烤鮮魚',
+        ],
+        'specialty' => [
+            'title' => '特選',
+            'duck-beetroot' => '爐烤蘭陽櫻桃鴨',
+            'ribs-bbq-honey' => '美式聖路易肋排',
         ],
         'premium' => [
             'title' => '主廚',
@@ -51,7 +65,9 @@ return [
             'sirloin-steak' => '沙朗牛排',
             'lamb-with-mint' => '薄荷羊小排',
             'beef-wellington' => '威靈頓牛排',
-            'hunter-tomahawk' => '獵人戰斧豬'
+            'hunter-tomahawk' => '獵人戰斧豬',
+            'seafood-club' => '海鮮總匯',
+            'lamb-makauy' => '山胡椒小羔羊肩排'
         ],
         'award' => [
             'title' => '摘星',
@@ -59,6 +75,8 @@ return [
             'prime-sirloin' => '頂級莎朗牛',
             'ribeye' => '頂級肋眼牛排',
             'pork-chops' => '低溫舒肥戰斧豬排',
+            'sous-vide-tomohawk' => '低溫燒烤戰斧豬',
+            'strip-steak' => '紐約客牛排',
         ],
         'beverages' => [
             'title' => '飲料',
@@ -71,11 +89,16 @@ return [
             'lemon-soda' => '氣泡檸檬',
             'black-tea' => '蜜香紅茶',
             'kumquat-tea' => '熱鄉桔茶',
+            'chia-apple-vinegar' => '奇芽籽蘋果醋',
+            'herbal-tea' => '果香花草茶',
+            'earl-grey' => '伯爵紅茶',
 
         ],
         'dessert' => [
             'title' => '甜點',
-            'handmade-dessert' => '手作甜點'
+            'handmade-dessert' => '手作甜點',
+            'jewelry-box' => '法式經典珠寶盒',
+            'kumquat-cheese' => '金桔乳酪蛋糕',
         ],
         'soup' => [
             'title' => '湯品',
@@ -100,7 +123,7 @@ return [
             'title' => '蛋糕',
             'matcha' => '宇治抹茶',
             'chocolate' => '古典巧克力',
-            'cheese' => '乳酪',
+            'cheese' => '金桔乳酪',
         ],
         'waffles' => [
             'title' => '手作鬆餅',
@@ -125,6 +148,7 @@ return [
             'rose-latte' => '玫瑰拿鐵',
             'burnt-cream-latte' => '脆皮拿鐵',
             'caramel-machiato' => '焦糖瑪其朵',
+            'mocha-smoothie' => '摩卡咖啡冰沙',
         ],
         'tea' => [
             'title' => '天然茶飲',
@@ -146,6 +170,7 @@ return [
             'chocolate-au-lait' =>'比利時可可',
             'matcha-au-lait' =>'宇治抹茶歐蕾',
             'assam-black-tea-au-lait' =>'皇家鮮奶茶',
+            'vanilla-milk-smoothie' => '香草牛奶冰沙',
         ],
         'soda' => [
             'title' => '氣泡飲',

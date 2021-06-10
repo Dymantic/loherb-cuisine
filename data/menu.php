@@ -29,8 +29,9 @@ return [
         'starters'  => [
             'title'   => 'menu.dine.starters.title',
             'courses' => [
-                'menu.dine.starters.devilled-eggs',
-                'menu.dine.starters.garden-salad',
+                'menu.dine.starters.balsamic-salad',
+                'menu.dine.starters.thousand-island-salad',
+                'menu.dine.starters.sesame-salad',
             ]
         ],
         'options'   => [
@@ -38,26 +39,33 @@ return [
                 'title'   => 'menu.dine.classic.title',
                 'price'   => '580',
                 'choices' => [
-                    'menu.dine.classic.tandoori-chicken',
-                    'menu.dine.classic.pineapple-pork',
-                    'menu.dine.classic.vegetable-club'
+                    'menu.dine.classic.bolognese-penne',
+                    'menu.dine.classic.vegetable-club',
                 ]
             ],
             [
                 'title'   => 'menu.dine.feast.title',
                 'price'   => '680',
                 'choices' => [
-                    'menu.dine.feast.pork-ribs-honey',
-                    'menu.dine.feast.beef-bourguignon',
-                    'menu.dine.feast.roasted-duck',
-                    'menu.dine.feast.grilled-fish'
+                    'menu.dine.feast.tandoori-chicken',
+                    'menu.dine.feast.pineapple-pork',
+                    'menu.dine.feast.fish-puttanesca',
+                ]
+            ],
+            [
+                'title'   => 'menu.dine.specialty.title',
+                'price'   => '780',
+                'choices' => [
+                    'menu.dine.specialty.duck-beetroot',
+                    'menu.dine.specialty.ribs-bbq-honey',
                 ]
             ],
             [
                 'title'   => 'menu.dine.premium.title',
                 'price'   => '880',
                 'choices' => [
-                    'menu.dine.premium.sicily-seafood',
+                    'menu.dine.premium.seafood-club',
+                    'menu.dine.premium.lamb-makauy',
                     'menu.dine.premium.beef-wellington',
                 ]
             ],
@@ -66,31 +74,32 @@ return [
                 'price'   => '980',
                 'choices' => [
                     'menu.dine.award.surf-and-turf',
-                    'menu.dine.award.ribeye',
-                    'menu.dine.award.pork-chops',
+                    'menu.dine.award.strip-steak',
+                    'menu.dine.award.sous-vide-tomohawk',
                 ]
             ]
         ],
         'soup' => [
             'title' => 'menu.dine.soup.title',
             'options' => [
-                'soup_of_day',
-                'bread',
+//                'soup_of_day',
+//                'bread',
             ]
         ],
         'dessert' => [
             'title' => 'menu.dine.dessert.title',
             'options' => [
-                'handmade-dessert',
+                'jewelry-box',
+                'kumquat-cheese',
             ]
         ],
         'beverages' => [
             'title'   => 'menu.dine.beverages.title',
             'options' => [
-                'kumquat-tea',
-                'black-tea',
+                'chia-apple-vinegar',
+                'herbal-tea',
+                'earl-grey',
                 'long-black',
-                'flower-tea',
             ]
         ],
 
@@ -137,7 +146,7 @@ return [
                 'title'   => 'menu.brunch.cakes.title',
                 'price'   => 160,
                 'options' => [
-                    'menu.brunch.cakes.matcha',
+//                    'menu.brunch.cakes.matcha',
                     'menu.brunch.cakes.chocolate',
                     'menu.brunch.cakes.cheese',
                 ]
@@ -177,6 +186,7 @@ return [
 //                    'menu.beverages.coffee.rose-latte',
                     'menu.beverages.coffee.burnt-cream-latte',
                     'menu.beverages.coffee.caramel-machiato',
+                    'menu.beverages.coffee.mocha-smoothie',
                 ]
             ],
             'tea' => [
@@ -207,18 +217,19 @@ return [
                     'menu.beverages.au-lait.chocolate-au-lait',
                     'menu.beverages.au-lait.matcha-au-lait',
                     'menu.beverages.au-lait.assam-black-tea-au-lait',
+                    'menu.beverages.au-lait.vanilla-milk-smoothie',
                 ]
             ],
-            'soda' => [
-                'title'   => 'menu.beverages.soda.title',
-                'price'   => 160,
-                'options' => [
-                    'menu.beverages.soda.orange',
-                    'menu.beverages.soda.red-berry',
-                    'menu.beverages.soda.sicilia-coffee',
-                    'menu.beverages.soda.cola',
-                ]
-            ],
+//            'soda' => [
+//                'title'   => 'menu.beverages.soda.title',
+//                'price'   => 160,
+//                'options' => [
+//                    'menu.beverages.soda.orange',
+//                    'menu.beverages.soda.red-berry',
+//                    'menu.beverages.soda.sicilia-coffee',
+//                    'menu.beverages.soda.cola',
+//                ]
+//            ],
 
         ],
         'images'   => [
