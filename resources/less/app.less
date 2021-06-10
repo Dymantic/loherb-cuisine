@@ -1,28 +1,46 @@
 @font-face {
-  font-family: "transat-bold";
-  src: url(../fonts/transat_bold-webfont.woff), url(../fonts/transat_bold-webfont.woff2);
-  font-style: normal;
-  font-weight: bold;
+    font-family: "transat-bold";
+    src: url(../fonts/transat_bold-webfont.woff),
+    url(../fonts/transat_bold-webfont.woff2);
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "transat-bold";
+    src: url(../fonts/transat_standard-webfont.woff),
+    url(../fonts/transat_standard-webfont.woff2),
+    url(../fonts/transat_standard-webfont.ttf);
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
 }
 
 @tailwind base;
 
 @import (less) "~flickity/dist/flickity.css";
 
-@import "./type.less";
-@import "./buttons-links.less";
-@import "layout-helpers";
-@import "navbar";
-@import "flickity";
+@layer utilities {
+    @import "./type.less";
+    @import "./buttons-links.less";
+    @import "layout-helpers";
+    @import "navbar";
+    @import "flickity";
 
-@import "pages/home";
-@import "pages/about";
-@import "pages/events";
-@import "pages/journal";
-@import "pages/menu";
-@import "pages/bookings";
+    @import "pages/home";
+    @import "pages/about";
+    @import "pages/events";
+    @import "pages/journal";
+    @import "pages/menu";
+    @import "pages/bookings";
 
-@import "partials/footer";
+    @import "partials/footer";
+
+    @import "animations";
+    @import "usher";
+}
+
 
 @tailwind utilities;
 

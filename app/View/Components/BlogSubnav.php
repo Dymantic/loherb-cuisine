@@ -20,7 +20,10 @@ class BlogSubnav extends Component
                                            ['is_draft', 0], ['publish_date', '<=', Carbon::now()]
                                        ]))
                                        ->get()
-                                       ->map(fn (Category $category) => ['title' => $category->title, 'slug' => $category->slug]);
+                                       ->map(fn (Category $category) => [
+                                           'option' => $category->title,
+                                           'url' => "/jornal/category/{$category->slug}"
+                                       ])->all();
     }
 
 

@@ -19,7 +19,7 @@
         <p class="type-h0 mt-0 font-black text-cream-light text-center px-4">{{ trans('about.banner.text') }}</p>
     </section>
     @component('components.info-section', ['title' => trans('about.section_one.heading')])
-        <p class="text-center text-purple">{{ trans('about.section_one.content') }}</p>
+        <p data-usher class="text-center text-purple">{{ trans('about.section_one.content') }}</p>
     @endcomponent
     <section class="section-height about-banner-1"></section>
     @component('components.info-section', ['title' => trans('about.section_two.heading')])

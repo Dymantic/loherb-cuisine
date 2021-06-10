@@ -19,6 +19,7 @@ import BookingsPage from './components/BookingsPage';
 Vue.component('contact-form', ContactForm);
 Vue.component('bookings-page', BookingsPage);
 
+import Usher from "./Usher";
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -52,7 +53,28 @@ window.addEventListener('scroll', throttle(() => {
 }, 150));
 
 window.addEventListener('DOMContentLoaded', () => {
+
+    const usher = new Usher();
     [...document.querySelectorAll('a')].filter(a => a.href == window.location.toString()).forEach(a => a.classList.add('active'));
+
+    function removeArrow(ev) {
+        const target = ev ? ev.target : null;
+        const arrows = [...document.querySelectorAll('.horizontal-scroll-arrow-indicator')];
+        arrows.forEach(a => a.classList.add('hidden'));
+        if(target) {
+            target.removeEventListener('scroll', removeArrow);
+        }
+    }
+
+    [...document.querySelectorAll('.horizontal-scroll-menu')]
+        .forEach(menu => {
+            const sw = menu.scrollWidth;
+            const cw = menu.clientWidth;
+            if(sw <= cw) {
+                return removeArrow();
+            }
+            menu.addEventListener('scroll', removeArrow)
+        });
 
     [...document.querySelectorAll('.menu-scroller')].forEach(el => {
         if(el.scrollWidth > window.innerWidth) {

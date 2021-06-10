@@ -5,7 +5,9 @@ module.exports = {
         "./resources/**/*.html",
         "./resources/**/*.vue",
         "./resources/**/*.blade.php",
+        "./resources/js/Usher.js",
     ],
+    mode: 'jit',
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
@@ -42,13 +44,18 @@ module.exports = {
                 '120w': '120vw',
             },
             fontSize: {
+                "lg" : '1.25rem',
+                '3xl': '3rem',
                 '4xl': '2.125rem',
+                '5xl': '3rem',
+                '6xl': '3.5rem',
+                '7xl': '4rem',
             },
             fontFamily: {
                 display: [
+                    'Noto Sans TC',
                     'atrament-web',
                     'system-ui',
-                    'source-han-sans-traditional',
                     'BlinkMacSystemFont',
                     '-apple-system',
                     'Segoe UI',
@@ -62,9 +69,9 @@ module.exports = {
                     'sans-serif',
                 ],
                 'sans': [
+                    'Noto Sans TC',
                     'transat-bold',
                     'system-ui',
-                    'source-han-sans-traditional',
                     'BlinkMacSystemFont',
                     '-apple-system',
                     'Segoe UI',
@@ -78,10 +85,10 @@ module.exports = {
                     'sans-serif',
                 ],
                 serif: [
-                    'adobe-caslon-pro',
+                    'Noto Serif TC',
+                    'bodoni-urw',
                     'Constantia',
                     'Lucida',
-                    'source-han-serif-tc',
                     'Lucida Bright',
                     'Lucidabright',
                     'Lucida Serif',
