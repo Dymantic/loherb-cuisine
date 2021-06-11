@@ -9,7 +9,8 @@ return [
     ],
 
     'banner' => [
-        'text' => 'Food and environment in harmony.'
+        'title' => 'Cuisine & Nature',
+        'text' => 'Loherb Cuisine believes strongly in bringing our natural and beautiful environment into our dining experience. The luxury and health of professionally designed meals in the comfort and freedom of a relaxing, natural environment.'
     ],
 
     'section_one' => [
