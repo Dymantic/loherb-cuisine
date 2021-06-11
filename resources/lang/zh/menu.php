@@ -18,7 +18,7 @@ return [
         'title' => '日光套餐',
 
         'starters' => [
-            'title' => '花園沙拉',
+            'title' => '沙拉',
             'soup-and-bread' => '雪貝南瓜濃湯 & 佛卡夏麵包',
             'shrimp-with-caviar' => '鮮魚卵佐海甜蝦',
             'salad-and-apple-vinegar' => '藍莓優格沙拉 & 奇芽籽蘋果醋',

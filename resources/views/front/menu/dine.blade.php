@@ -10,7 +10,7 @@
 
     <p class="mb-2 md:mb-4 type-h1 text-purple capitalize mt-8">{{ trans($menu['dine']['starters']['title']) }}</p>
     @foreach($menu['dine']['starters']['courses'] as $course)
-        <p class="text-purple capitalize">{{ trans($course) }}</p>
+        <p class="text-purple capitalize mb-2">{{ trans($course) }}</p>
     @endforeach
 
     <p class="mb-2 md:mb-4 type-h1 text-purple capitalize mt-12">{{ trans('menu.appetizers') }}</p>
@@ -29,7 +29,7 @@
     <p class="type-h1 text-purple capitalize mb-2">{{ trans($menu['dine']['dessert']['title']) }}</p>
     <div class="text-purple text-center">
         @foreach($menu['dine']['dessert']['options'] as $option)
-            <p class="text-purple capitalize">{{ trans('menu.dine.dessert.' . $option) }}</p>
+            <p class="text-purple capitalize mb-2">{{ trans('menu.dine.dessert.' . $option) }}</p>
         @endforeach
     </div>
     <p class="type-h1 text-purple capitalize mt-12 mb-2 md:mb-4">{{ trans($menu['dine']['beverages']['title']) }}</p>

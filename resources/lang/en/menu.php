@@ -95,13 +95,13 @@ return [
             'earl-grey' => 'Early Grey Tea',
         ],
         'dessert' => [
-            'title' => 'Dessert',
+            'title' => 'Dessert Choice',
             'handmade-dessert' => 'Handmade Dessert',
             'jewelry-box' => 'Jewelry Box',
             'kumquat-cheese' => 'Kumquat Cheese Cake'
         ],
         'soup' => [
-            'title' => 'Soup',
+            'title' => 'Soup & Bread',
             'soup_of_day' => 'Soup of the Day',
             'bread' => 'Bread',
         ],
