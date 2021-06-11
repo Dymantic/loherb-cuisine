@@ -101,7 +101,7 @@ return [
             'kumquat-cheese' => '金桔乳酪蛋糕',
         ],
         'soup' => [
-            'title' => '湯品',
+            'title' => '主廚例湯＆鄉村麵包',
             'soup_of_day' => '主廚每日例湯',
             'bread' => '鄉村麵包',
         ],
