@@ -9,7 +9,13 @@ class MenuController extends Controller
     public function index()
     {
         $menu = data('menu');
-        return view('front.menu.index', ['menu' => $menu]);
+        $navOptions = [
+            ['url' => 'dine', 'option' => trans('menu.dine.title')],
+            ['url' => 'brunch', 'option' => trans('menu.brunch.title')],
+            ['url' => 'beverages', 'option' => trans('menu.beverages.title')],
+            ['url' => 'alcohol', 'option' => trans('menu.alcohol.title')],
+        ];
+        return view('front.menu.index', ['menu' => $menu, 'navOptions' => $navOptions]);
     }
 
     public function mains()
