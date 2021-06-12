@@ -86,7 +86,10 @@ window.addEventListener('DOMContentLoaded', () => {
 [...document.querySelectorAll('[data-jump-target]')].forEach(e => {
     e.addEventListener('click', (ev) => {
         ev.preventDefault();
-        const target = ev.target.getAttribute('data-jump-target') || '#app';
+        let target = ev.target.getAttribute('data-jump-target') || '#app';
+        if(!target.startsWith('#')) {
+            target = `#${target}`;
+        }
         const offset = parseInt(ev.target.getAttribute('data-jump-offset')) || 0;
         jump(target, {offset});
     });
