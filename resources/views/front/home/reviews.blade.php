@@ -1,10 +1,14 @@
 <div class="bg-pinky-grey reg-section-space reviews">
-    <p class="type-h1 mb-16 text-purple text-center">{{ trans('homepage.reviews.heading') }}</p>
-    <div data-flickity='{"autoPlay": 5000}' class="slide-show dark arrows-wide low-dots max-w-xl mx-auto">
+    <p class="type-h1 mb-4 text-purple text-center">{{ trans('homepage.reviews.heading') }}</p>
+    <div class="flex justify-center mb-8">
+        @include('svgs.logos.leaf-purple')
+    </div>
+    <div data-flickity='{"autoPlay": 5000}'
+         class="slide-show dark arrows-wide low-dots max-w-xl mx-auto mt-12">
         @foreach($reviews as $review)
             <div class="w-full text-purple">
                 @if($review['title'])
-                    <p class="type-h1 mb-4 hidden md:block">{{ $review['title'] }}</p>
+                    <p class="type-b2 mb-4 hidden md:block">{{ $review['title'] }}</p>
                 @endif
                 <p class="mb-4 md:hidden text-center">“{{ $review['brief'] ?? '' }}”</p>
                 <p class="mb-4 hidden md:block">

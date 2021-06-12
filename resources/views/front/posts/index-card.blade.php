@@ -6,7 +6,7 @@
         </a>
         <div class="p-4">
             <p class="type-h2 text-purple">{{ $post['title'] }}</p>
-            <p class="type-b2 zh:text-sm text-purple-soft">{{ $post['publish_date_string'] }}</p>
+            <p class="font-sans zh:font-transat font-bold text-sm text-purple-soft">{{ $post['publish_date_string'] }}</p>
             <p class="text-purple">{{ $post['intro'] }}</p>
         </div>
     </div>

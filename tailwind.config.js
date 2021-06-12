@@ -84,6 +84,12 @@ module.exports = {
                     'Helvetica Neue',
                     'sans-serif',
                 ],
+                transat: [
+                    'transat-bold',
+                    'Noto Sans TC',
+                    'system-ui',
+                    'san-serif',
+                ],
                 serif: [
                     'Noto Serif TC',
                     'bodoni-urw',

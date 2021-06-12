@@ -20,7 +20,7 @@
     <section>
         <div class="p-0 lg:p-20 slide-show-container events-gallery">
             <div data-flickity='{"imagesLoaded": true, "autoPlay": true}'
-                 class="w-full mx-auto slide-show inner-dots large-slider">
+                 class="w-full mx-auto slide-show inner-dots large-slider dark">
                 @foreach($event_images as $image)
                     <picture class="w-full block mx-auto">
                         <source srcset="{{ $image['small'] }}"
@@ -37,16 +37,12 @@
         </div>
     </section>
     @component('components.info-section-light', ['title' => trans('events.venue.heading')])
-        <div class="max-w-4xl mx-auto mb-20 flex flex-wrap">
+        <div class="max-w-4xl mx-auto mb-20 grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-3">
             @foreach($amenities as $amenity)
-                <div class="w-full md:w-1/2 my-1">
-                    <div class="w-56 max-w-full mx-auto flex items-start text-green-main my-1">
-                            <span class="w-6">
-                                @include("svgs.amenities.{$amenity}")
-                            </span>
+                    <div class="w-56 max-w-full mx-auto flex items-center text-purple my-1">
+                        @include("svgs.amenities.{$amenity}", ['classes' => 'w-5 h-5'])
                         <span class="ml-4">{{ trans("events.venue.amenities.{$amenity}") }}</span>
                     </div>
-                </div>
             @endforeach
         </div>
     @endcomponent

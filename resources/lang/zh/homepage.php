@@ -16,7 +16,7 @@ return [
     ],
     'dish_banner' => [],
     'events' => [
-        'heading' => '以如夢盛宴留下摯生難忘回憶',
+        'heading' => '以如夢盛宴<br class="md:hidden">留下摯生難忘回憶',
         'content' => '日光私廚有舒適寬廣戶外園區與室內空間，可同時舉辦室內外活動。 這裏不只供應專業點心、輕食、套餐，更能客製菜單實現夢想中的盛宴。 一同來日光私廚留下摯生回憶吧！',
         'link_text' => '預約盛宴'
     ],
@@ -36,7 +36,7 @@ return [
         'link_text' => '日光綠築'
     ],
     'instagram' => [
-        'heading' => 'Instagram的最新消息',
+        'heading' => 'Instagram<br class="md:hidden">的最新消息',
         'link_text' => '追蹤我們'
     ]
 ];
