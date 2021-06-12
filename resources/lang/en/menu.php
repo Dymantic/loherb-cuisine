@@ -101,7 +101,7 @@ return [
             'kumquat-cheese' => 'Kumquat Cheese Cake'
         ],
         'soup' => [
-            'title' => 'Soup & Bread',
+            'title' => 'Soup',
             'soup_of_day' => 'Soup of the Day',
             'bread' => 'Bread',
         ],
