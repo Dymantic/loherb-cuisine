@@ -22,7 +22,7 @@ class BlogSubnav extends Component
                                        ->get()
                                        ->map(fn (Category $category) => [
                                            'option' => $category->title,
-                                           'url' => "/jornal/category/{$category->slug}"
+                                           'url' => "/journal/category/{$category->slug}"
                                        ])->all();
     }
 
