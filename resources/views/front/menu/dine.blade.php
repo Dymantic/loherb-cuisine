@@ -33,7 +33,7 @@
         @endforeach
     </div>
     <p class="type-h2 text-purple capitalize mt-12 mb-2 md:mb-4">{{ trans($menu['dine']['beverages']['title']) }}</p>
-    <div class="text-purple text-center">
+    <div class="text-purple text-center pb-12">
         @foreach($menu['dine']['beverages']['options'] as $option)
             <span class="block mx-auto md:inline px-4 @if(!$loop->last) md:border-r md:border-purple @endif">{{ trans('menu.dine.beverages.' . $option) }}</span>
         @endforeach

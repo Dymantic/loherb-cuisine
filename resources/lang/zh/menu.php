@@ -27,9 +27,9 @@ return [
             'oil-vinegar-salad' => '義式燻雞油醋沙拉＆青蘋香檳',
             'devilled-eggs' => '鮮貝與惡魔',
             'garden-salad' => '日光農夫花園沙拉',
-            'balsamic-salad' => '義式蜂蜜油醋沙拉',
-            'thousand-island-salad' => '千島沙拉',
-            'sesame-salad' => '日式和風胡麻沙拉',
+            'balsamic-salad' => '蜂蜜油醋沙拉',
+            'thousand-island-salad' => '義式千島沙拉',
+            'sesame-salad' => '日式胡麻沙拉',
         ],
         'classic' => [
             'title' => '經典',
@@ -156,6 +156,7 @@ return [
             'earl-black-tea' => '伯爵紅茶',
             'iron-buddhism-tea' => '鐵觀音茶',
             'kiwi-strawberry-tea' => '草莓果粒茶',
+            'apple-guava' => '蘋果石榴茶',
         ],
         'fruit-juice' => [
             'title' => '鮮榨果汁',
@@ -163,6 +164,7 @@ return [
             'orange' => '甜橙柳丁',
             'berry-yogurt' => '雙莓優格',
             'kiwi-pineapple' => '奇異果鳳梨汁',
+
         ],
         'au-lait' => [
             'title' => '醇香歐蕾',
@@ -171,6 +173,7 @@ return [
             'matcha-au-lait' =>'宇治抹茶歐蕾',
             'assam-black-tea-au-lait' =>'皇家鮮奶茶',
             'vanilla-milk-smoothie' => '香草牛奶冰沙',
+            'earl-black' => '伯爵鮮奶茶',
         ],
         'soda' => [
             'title' => '氣泡飲',

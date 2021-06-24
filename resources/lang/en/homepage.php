@@ -11,7 +11,7 @@ return [
     'banner' => [],
     'elegance' => [
         'heading' => 'Elegance & Taste',
-        'content' => 'Loherb Cuisine is a high-end culinary experience where space, elegance and fine food come together to give you a wonderfully unique time. Tucked away away in Yilan, Taiwan, amongst a natural environment that offers splendid views and scenery. We offer a full set menu including breakfast, lunch and our sensational dinner menu, so feel free to visit us at any time of the day.',
+        'content' => 'Loherb Cuisine is a high-end culinary experience where space, elegance and fine food come together to give you a wonderfully unique time. Tucked away in Yilan, Taiwan, amongst a natural environment that offers splendid views and scenery. We offer a full set menu including breakfast, lunch and our sensational dinner menu, so feel free to visit us at any time of the day.',
         'link_text' => 'See Menu'
     ],
     'dish_banner' => [],

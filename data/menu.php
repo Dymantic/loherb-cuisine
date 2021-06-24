@@ -194,7 +194,7 @@ return [
                 'price'   => 160,
                 'options' => [
                     'menu.beverages.tea.four-seasons-tea',
-                    'menu.beverages.tea.earl-black-tea',
+                    'menu.beverages.tea.apple-guava',
                     'menu.beverages.tea.iron-buddhism-tea',
 //                    'menu.beverages.tea.kiwi-strawberry-tea',
                 ]
@@ -216,7 +216,7 @@ return [
                     'menu.beverages.au-lait.caramel-au-lait',
                     'menu.beverages.au-lait.chocolate-au-lait',
                     'menu.beverages.au-lait.matcha-au-lait',
-                    'menu.beverages.au-lait.assam-black-tea-au-lait',
+                    'menu.beverages.au-lait.earl-black',
                     'menu.beverages.au-lait.vanilla-milk-smoothie',
                 ]
             ],

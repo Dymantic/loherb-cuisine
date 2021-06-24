@@ -16,7 +16,7 @@
         <div class="w-full md:w-1/2 mb-8 md:mb-0">
             @include('front.menu.beverage-block', ['section' => $menu['beverages']['sections']['coffee'], 'border' => 'right'])
         </div>
-        <div class="w-full md:w-1/2 mb-8 md:mb-0">
+        <div class="w-full md:w-1/2 md:pb-20 mb-8 md:mb-0">
             @include('front.menu.beverage-block', ['section' => $menu['beverages']['sections']['tea'], 'border' => 'left'])
         </div>
     </div>

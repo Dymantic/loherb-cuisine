@@ -156,6 +156,7 @@ return [
             'earl-black-tea' => 'Earl Black Tea',
             'iron-buddhism-tea' => 'Iron Buddhism Tea',
             'kiwi-strawberry-tea' => 'Kiwi & Strawberry Tea',
+            'apple-guava' => 'Apple Guava Tea'
         ],
         'fruit-juice' => [
             'title' => 'Fruit Juice',
@@ -171,6 +172,7 @@ return [
             'matcha-au-lait' =>'Matcha Au Lait',
             'assam-black-tea-au-lait' =>'Assam Black Tea Au Lait',
             'vanilla-milk-smoothie' => 'Vanilla Milk Smoothie',
+            'earl-black' => 'Earl Black Tea Au Lait',
         ],
         'soda' => [
             'title' => 'Soda',
