@@ -13,11 +13,15 @@
 
 .journal-entry img {
   display: block;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
 .journal-entry figcaption {
-  @apply text-center text-sm -mt-8;
+  @apply text-center text-sm;
+}
+
+.journal-entry img + .journal-entry figcaption {
+    @apply -mt-8;
 }
 
 .journal-entry .instagram-media {
@@ -41,14 +45,14 @@
 @apply text-hover-purple underline;
 }
 
-.aspect-16-9 {
+.journal-entry .aspect-16-9 {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   margin: 2rem auto;
 }
 
-.aspect-16-9 iframe {
+.journal-entry .aspect-16-9 iframe {
   position: absolute;
   top: 0;
   left: 0;
